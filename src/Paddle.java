@@ -56,7 +56,7 @@ public class Paddle
 
 	public void draw(Graphics g)
 	{
-		g.setColor(Color.RED);
+		g.setColor(Color.BLACK);
 		g.fillRect(x-WIDTH/2, y-HEIGHT/2, WIDTH, HEIGHT);
 	}
 }

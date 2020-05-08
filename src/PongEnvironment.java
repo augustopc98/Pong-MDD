@@ -12,7 +12,7 @@ public class PongEnvironment
 
 	public PongEnvironment()
 	{
-		ball = new Ball(Color.RED, WIDTH/2, HEIGHT/2);
+		ball = new Ball(Color.BLACK, WIDTH/2, HEIGHT/2);
 		left = new Paddle(10, HEIGHT/2);
 		right = new Paddle(WIDTH-10, HEIGHT/2);
 	}
@@ -45,7 +45,7 @@ public class PongEnvironment
 		{
 		}
 
-		ball = new Ball(Color.RED, WIDTH/2, HEIGHT/2);
+		ball = new Ball(Color.BLACK, WIDTH/2, HEIGHT/2);
 		left = new Paddle(10, HEIGHT/2);
 		right = new Paddle(WIDTH-10, HEIGHT/2);
 	}
@@ -62,7 +62,7 @@ public class PongEnvironment
 		{
 		}
 
-		ball = new Ball(Color.BLUE, WIDTH/2, HEIGHT/2);
+		ball = new Ball(Color.BLACK, WIDTH/2, HEIGHT/2);
 		left = new Paddle(10, HEIGHT/2);
 		right = new Paddle(WIDTH-10, HEIGHT/2);
 	}
